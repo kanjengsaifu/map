@@ -1,0 +1,213 @@
+body{
+		  background-color:#e7ebeb;
+		  padding-bottom:20px;
+	  }
+	  ::selection{
+		  background: #bfe590;
+	  }
+	  .bgheader .container{
+		  background:none;
+	  }
+	  .navbar-header{
+		  color:#4CAF50;
+		  padding-left:30px;
+		  padding-right:30px;
+	  }
+	  .navbar-header:hover{
+		  color:#575b5b;
+	  }
+	  .navbar-default{
+		  background:#263238;
+		  border:none;
+	  }
+	  .navbar-default .navbar-brand{
+		  color:#4CAF50;
+		  cursor: pointer;
+	  }
+	  .navbar-default .navbar-brand:hover{
+		  color:#575b5b;
+	  }
+	  .navbar-default .navbar-nav > li > a{
+		  color:#232323;
+		  font-weight: bold;
+	  }
+	  .navbar-default .navbar-nav > li:hover > a{
+		  color:#4CAF50;
+		  background:#ecf0f1;
+	  }
+	  .navbar-default .navbar-nav > li:focus > a{
+		  color:#4CAF50;
+		  background:none;
+	  }
+	  .navbar-default .navbar-nav > .active > a{
+		  color:#fff;
+		  background: #4CAF50;
+	  }
+	  .navbar-default .navbar-nav > .active:hover > a, .navbar-default .navbar-nav > .active:focus > a{
+		  color:#4CAF50;
+		  background: #fff;
+	  }
+	  .navbar-default .navbar-toggle{
+		  border-color:#4CAF50;
+		  background:none;
+	  }
+	  .navbar-default .navbar-toggle:hover{
+		  border-color:#4CAF50;
+		  background:#ecf0f1;
+	  }
+	  .navbar-default .navbar-toggle:focus{
+		  border-color:#4CAF50;
+		  background:none;
+	  }
+	  .navbar-default .navbar-toggle .icon-bar{
+		  background-color:#4CAF50;
+	  }
+	  .wrapper{
+		background:#fff;
+		padding:20px;
+	  }
+	  .container a{
+		  color:#4CAF50;
+	  }
+	  .margined{
+	      margin-top:200px;
+	  }
+        h1.txprofil{
+            font-size:2.5em;
+            text-transform:uppercase;
+            padding: 0;
+            margin: 0;
+            margin-bottom:0px;
+        }
+        h2.txnama{
+            font-size:2em;
+            text-transform:capitalize;
+            padding: 0;
+            margin: 0;
+        }
+        .ffoto{
+            border-radius:3px;
+            border:5px solid #fff;
+        }
+        .profil{
+          background-color:#263238;
+          color:#fff;
+        }
+         .fprofil{
+            padding:20px 10px;
+            text-align: center;
+         }
+        .midcontent{
+            background-image: url(img/banner.png);
+            background-size: cover;
+            background-position: center;
+            padding:20px 0;
+            color:#fff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+		.imagecrop_slider
+		{
+			width: 100%;
+			height: 300px;
+			background-position: center;
+		
+			/* Make the background image cover the area of the <div>, and clip the excess */
+			background-size: cover;
+			display:inline-table;
+		}
+		.imagecrop_profil
+		{
+            background-color:#fff;
+			width: 160px;
+			height: 200px;
+            border:3px solid #fff;
+			background-position: center;
+		
+			/* Make the background image cover the area of the <div>, and clip the excess */
+			background-size: cover;
+			display:inline-table;
+		}
+        .imagecrop_media
+		{
+            background-color:#fff;
+			width: 200px;
+			height: 200px;
+			background-position: center;
+		
+			/* Make the background image cover the area of the <div>, and clip the excess */
+			background-size: cover;
+			display:inline-table;
+		}
+        @media (max-width: 640px){
+          .imagecrop_media
+          {
+              width: 100px;
+              height: 100px;
+              background-position: center;
+          
+              /* Make the background image cover the area of the <div>, and clip the excess */
+              background-size: cover;
+              display:inline-table;
+          }
+        }
+        .imagecrop_thumb
+		{
+            background-color:#fff;
+			width: 120px;
+			height: 120px;
+            border:2px solid #fff;
+			background-position: center;
+		
+			/* Make the background image cover the area of the <div>, and clip the excess */
+			background-size: cover;
+			display:inline-table;
+		}
+		.imagecrop_proyek
+		{
+			width: 300px;
+			height: 250px;
+			background-position: center;
+		
+			/* Make the background image cover the area of the <div>, and clip the excess */
+			background-size: cover;
+			display:inline-table;
+		}
+		.overcontent{
+		  max-height:750px;
+		  overflow-x: hidden;
+		  overflow-y: auto;
+		}
+        .overside{
+		    height:480px;
+		    overflow-x:hidden;
+		    overflow-y:auto;
+		}
+		.overcontent,.sidecontent{
+		  margin-top: 20px;
+		}
+		h2.title{
+		  font-size:1.5em;
+		  color:#333;
+		  margin-top:0;
+		  font-weight:normal;
+		}
+		.list-group-item:first-child {
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+		}
+		.list-group-item:last-child {
+			margin-bottom: 0;
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+        .cS-hidden {
+          height: 1px;
+          opacity: 0;
+          filter: alpha(opacity=0);
+          overflow: hidden;
+          }
+          .desc-slider{
+          padding:10px;
+          padding-top:100px;
+          }

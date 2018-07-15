@@ -1,0 +1,1 @@
+<iframe src="http://docs.google.com/gview?url=http://www.mediafire.com/files/f2z7l7ycnnr5n78/Bab_2_Penyajian_distribusi_frekuensi.pptx&embedded=true" style="width:550px; height:450px;" frameborder="0"></iframe>
